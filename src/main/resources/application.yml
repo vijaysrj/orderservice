@@ -1,0 +1,13 @@
+
+
+spring:
+  jpa:
+    database: mysql
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://host.docker.internal:3307/orders
+    username: root
+    password: root
+  sql:
+    init:
+      platform: org.hibernate.dialect.MySQL5Dialect
